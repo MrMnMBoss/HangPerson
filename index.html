@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Materializecss cdn -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css" />
+  <style>
+    body,
+    html,
+    .my-con {
+      height: 100vh;
+    }
+
+  </style>
+  <title>Document</title>
+</head>
+
+<body class=" teal lighten-3">
+  <!-- vertical and horizontal center-->
+  <div class=" valign-wrapper center my-con">
+    <div class="container">
+      <h1 style="color:rgb(133, 65, 223)">HangPerson</h1>
+      <h6 style="color:rgb(133, 65, 223)">NOT A COPY OF THE GAME HANGMAN</h6>
+      <h3  style="color:rgb(255, 0, 0)" id="lives">BLANK</h3>
+      <br>
+      <br>
+      <h3 style="color:rgb(221, 0, 0)" id="blankWord"> _ _ _</h3>
+      <br>
+      <h4 style="color:rgb(228, 120, 186)">Whats your guess? </h4>
+      <h1 style="color:rgb(226, 113, 183)">￬</h1>
+      <input id="userInput" maxlength="1" style="width: 30%; font-size: large;" type="text">
+      <br>
+      <a onclick="process()" class="waves-effect waves-light btn pink accent-1"><i class="material-icons right">accessibility</i>Submit</a>
+
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+  <script src="index.js"></script>
+
+</body>
+
+</html>
